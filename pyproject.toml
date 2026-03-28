@@ -4,7 +4,7 @@ build-backend = "uv_build"
 
 [project]
 name = "rainbowsnake"
-version = "0.10.0"
+version = "1.0.0"
 authors = [
   { name="Rafe Milner", email="milnerrafe@icloud.com" },
 ]
