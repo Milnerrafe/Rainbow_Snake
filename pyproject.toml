@@ -3,8 +3,8 @@ requires = ["uv_build >= 0.10.10, <0.11.0"]
 build-backend = "uv_build"
 
 [project]
-name = "ranbow_snake"
-version = "0.8.0"
+name = "rainbowsnake"
+version = "0.10.0"
 authors = [
   { name="Rafe Milner", email="milnerrafe@icloud.com" },
 ]

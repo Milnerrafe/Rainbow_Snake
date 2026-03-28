@@ -1,4 +1,4 @@
-class color:
+class Color:
     error = "*/error/*"
     errorOFF = "*/error:OFF/*"
 
