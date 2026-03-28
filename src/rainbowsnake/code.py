@@ -40,7 +40,7 @@ class Color:
 
                 shell_connect = sys.stdout.shell
 
-                string = string.replace("\n", "{color.newline()}")
+                string = string.replace("\n", "{Color.newline()}")
 
                 styleTable = {
                     "error": ("shell_connect.write(f'''", "''', 'COMMENT')"),
@@ -142,7 +142,7 @@ class Color:
 
                 shell_connect = sys.stdout.shell
 
-                string = string.replace("\n", "{color.newline()}")
+                string = string.replace("\n", "{Color.newline()}")
 
                 styleTable = {
                     "error": ("shell_connect.write(f'''", "''', 'COMMENT')"),
