@@ -1,7 +1,13 @@
 # Rainbow Snake
 A simple python package that allows you to colour and format text in both terminal and idle environments.
 
+
 # Usage
+
+**Install Package**
+```bash
+pip install rainbowsnake
+```
 
 **Import color class:**
 
