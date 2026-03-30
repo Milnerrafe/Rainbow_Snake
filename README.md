@@ -98,19 +98,19 @@ Color.output(f"{Color.error}Sometext{Color.errorOFF}")
 
 **Hex Color Background**
 ```python
-color.output( f"{color.hexbg('#EE1C25')}Sometext{color.hexOFF}")
+Color.output( f"{color.hexbg('#EE1C25')}Sometext{color.hexOFF}")
 ```
 
 
 **Hex Color Text**
 ```python
-color.output( f"{color.hextext('#EE1C25')}Sometext{color.hexOFF}")
+Color.output( f"{color.hextext('#EE1C25')}Sometext{color.hexOFF}")
 ```
 
 
 **Combining Codes**
 ```python
-color.output( f"{color.hexbg('#EE1C25')}This text has a red background{color.hexOFF} and this is {Color.bold}bold{Color.boldOFF} and this an {Color.error}Error{Color.errorOFF}")
+Color.output( f"{color.hexbg('#EE1C25')}This text has a red background{color.hexOFF} and this is {Color.bold}bold{Color.boldOFF} and this an {Color.error}Error{Color.errorOFF}")
 ```
 
 # API Reference
