@@ -166,12 +166,15 @@ Clears the screen.
 
 Do not nest codes
 
-    Color.output(f"{Color.error}This {Color.warning}will{Color.warningOFF} not work {Color.errorOFF}")
+```python
+Color.output(f"{Color.error}This {Color.warning}will{Color.warningOFF} not work {Color.errorOFF}")
+```
 
 This will result in an error, instead, to change colors, end the current color and start the next color.
 
-    Color.output(f"{Color.error}This {Color.errorOFF}{Color.warning}will{Color.warningOFF}{Color.error} not work {Color.errorOFF}")
-
+```python
+Color.output(f"{Color.error}This {Color.errorOFF}{Color.warning}will{Color.warningOFF}{Color.error} not work {Color.errorOFF}")
+```
 
 
 
